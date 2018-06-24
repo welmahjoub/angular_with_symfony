@@ -172,10 +172,12 @@
 
               $scope.seConnecter = function () {
                   if($scope.login == $scope.mdp){
-                      notif('success','Bienvenue User','Connexion')
+                      notif('success','Bienvenue utilisateur','Connexion');
                       $timeout(function () {
                           window.location = "panel/"
                       }, 5000);
+                  } else {
+                      notif('error','Mot passe incorrect','Connexion');
                   }
               }
                 var notif = function (type, text , titre) {
