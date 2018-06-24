@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39711f5b-27f4-48c5-981d-01faace81843" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/src/Controller/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api/composer.json" afterPath="$PROJECT_DIR$/api/composer.json" />
-      <change beforePath="$PROJECT_DIR$/api/config/bundles.php" afterPath="$PROJECT_DIR$/api/config/bundles.php" />
-      <change beforePath="$PROJECT_DIR$/api/src/Log/UserBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/api/src/User/UserBundle/Controller/DefaultController.php" />
-      <change beforePath="$PROJECT_DIR$/api/src/Log/UserBundle/DependencyInjection/Configuration.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/api/src/Log/UserBundle/DependencyInjection/UserExtension.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/api/src/Log/UserBundle/Resources/config/routing.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/api/src/Log/UserBundle/Resources/config/services.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/api/src/Log/UserBundle/Resources/views/Default/index.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/api/src/Log/UserBundle/Tests/Controller/DefaultControllerTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/api/src/Log/UserBundle/UserBundle.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/api/src/config/routing.yml" afterPath="$PROJECT_DIR$/api/src/config/routing.yml" />
-      <change beforePath="$PROJECT_DIR$/sw/app/AppKernel.php" afterPath="$PROJECT_DIR$/sw/app/AppKernel.php" />
-      <change beforePath="$PROJECT_DIR$/sw/app/config/config.yml" afterPath="$PROJECT_DIR$/sw/app/config/config.yml" />
-      <change beforePath="$PROJECT_DIR$/sw/app/config/routing.yml" afterPath="$PROJECT_DIR$/sw/app/config/routing.yml" />
-      <change beforePath="$PROJECT_DIR$/sw/src/Api/Bundle/ApiBundle.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sw/src/Api/Bundle/Controller/DefaultController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sw/src/Api/Bundle/DependencyInjection/ApiExtension.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sw/src/Api/Bundle/DependencyInjection/Configuration.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sw/src/Api/Bundle/Resources/config/routing.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sw/src/Api/Bundle/Resources/config/services.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sw/src/Api/Bundle/Resources/views/Default/index.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sw/src/Api/Bundle/Tests/Controller/DefaultControllerTest.php" afterPath="" />
-    </list>
+    <list default="true" id="39711f5b-27f4-48c5-981d-01faace81843" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +27,9 @@
       <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sw/src/UserBundle/Controller/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-              <folding>
-                <element signature="e#41#81#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -214,6 +186,13 @@
               <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="logistique" type="b2602c69:ProjectViewProjectNode" />
+              <item name="logistique" type="462c0819:PsiDirectoryNode" />
+              <item name="sw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UserBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -343,7 +322,7 @@
       <workItem from="1529259026240" duration="30928000" />
       <workItem from="1529347258745" duration="17880000" />
       <workItem from="1529700088715" duration="7735000" />
-      <workItem from="1529831559115" duration="13645000" />
+      <workItem from="1529831559115" duration="14000000" />
     </task>
     <task id="LOCAL-00001" summary="&quot; config commit&quot;">
       <created>1529834091973</created>
@@ -356,11 +335,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70188000" />
+    <option name="totallyTimeSpent" value="70543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -374,7 +352,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26208377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26208377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -796,11 +774,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sw/src/UserBundle/Controller/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="e#41#81#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
