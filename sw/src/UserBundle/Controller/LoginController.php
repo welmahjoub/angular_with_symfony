@@ -30,11 +30,37 @@ class LoginController extends BaseController
     {
 
         $data = json_decode($request->getContent(), true);
-        dump($data);
+        $em= $this->getEntitymanager();
+        $user = $em->getRepository("UserBundle:User")->findOneBy(['email'=>$data['email']]);
+
+        if($user){
+            if(password_verify($data['code'], $user->getPassword() )){
+                $result = [
+                 "success" => true,
+                  "msg"=> "Bienvenu cher ".$user->getName(),
+                  "data"=>[
+                    "user"=>$user,
+                  ],
+                ];
+            }else{
+
+                $result = [
+                    "success" => false,
+                    "msg"=> "Mot de passe incorrect"
+                ];
+
+            }
+        } else {
+            $result = [
+                "success" => false,
+                "msg"=> "Email incorrect / veuillez contactez votre administrateur"
+            ];
+
+        }
+
 
         $serializer = $this->get("jms_serializer");
-        $json = $serializer->serialize($data, "json");
-
+        $json = $serializer->serialize($result, "json");
         return $this->sendResponse($json,200);
     }
 
