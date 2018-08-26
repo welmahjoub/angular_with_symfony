@@ -204,7 +204,7 @@
                          notif('success',resp.data.msg,'Connexion');
                          $timeout(function () {
                              window.localStorage.setItem("user_session",JSON.stringify(resp.data.data));
-                             window.location = "panel/"
+                             window.location = "panel/private/"
                          }, 2400);
                      }else{
                          $scope.loader=false;

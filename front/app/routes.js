@@ -1,15 +1,16 @@
-var app = angular.module('publicApp', ['ngRoute']);
+var app = angular.module('App', ['ngRoute']);
 
 app.config(function($routeProvider) {
     $routeProvider
-        .when('/public-demandes', {
-            templateUrl: '../panel/public/demandes.html',
-            controller: 'RegisterCtrl'
+        .when('/', {
+            templateUrl: 'accueil.html',
+            controller: 'HomeCtrl'
         })
-        .when('/public-register', {
-            templateUrl: '../panel/public/register.html',
+        .when('/wait-demande', {
+            templateUrl: 'demandes/list.html',
             controller: 'WaitDemandeCtrl'
         })
         .otherwise({ redirectTo: '/'});
+
 
 });
