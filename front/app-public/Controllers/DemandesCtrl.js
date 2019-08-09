@@ -1,4 +1,4 @@
-app_public.controller("DemandesCtrl", function($scope){
+app.controller("DemandesCtrl", function($scope){
 
     // try {
     //     $scope.session=JSON.parse(window.localStorage.getItem("user_session"));
