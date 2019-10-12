@@ -1,13 +1,13 @@
-app.controller("MissionCtrl", function ($scope,MissionFactory ,$location,$interval,$timeout,$q, $http) {
+app.controller("MissionCtrl", function ($scope,MissionFactory,$location,$interval,$timeout,$q, $http) {
     try {
         $scope.session=JSON.parse(window.localStorage.getItem("user_session"));
+        console.log("les data de sessions");
+        console.log($scope.session);
     }catch (error){ }
 
     if(!$scope.session){
         window.location.href="../"
     }
-
-    console.log($scope.session);
     $scope.user = $scope.session.user;
 
     var testdemande =[];
