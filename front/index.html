@@ -106,7 +106,7 @@
 
                                         <div class="form-group">
                                             <div class="col-xs-12">
-                                                <input class="form-control" ng-model="login.code" type="password" required="" placeholder="Password">
+                                                <input class="form-control" ng-model="login.password" type="password" required="" placeholder="Password">
                                             </div>
                                         </div>
 
@@ -195,9 +195,8 @@
 
                  $scope.loader = true;
                   console.log(data);
-                  console.log($scope.loader);
 
-                  $http.post(BASE_URL+"login/user", data).then(function (resp) {
+                  $http.post(BASE_URL+"/api/user/authenticate", data).then(function (resp) {
                      console.log(resp.data);
                      if(resp.data.success){
                          $scope.loader=false;
@@ -210,7 +209,9 @@
                          $scope.loader=false;
                          notif('error',resp.data.msg,'Connexion');
                      }
-                 });
+                 }).error(  function (error) {
+                      notif('error','error de connexions','ERREUR NETWORK');
+                  });
 
               }; //end seconnecter
 
