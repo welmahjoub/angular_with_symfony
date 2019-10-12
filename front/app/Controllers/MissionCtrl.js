@@ -14,7 +14,7 @@ app.controller("MissionCtrl", function ($scope,MissionFactory,$location,$interva
         var obj = { indice:i};
         testdemande.push(obj);
     }
-    MissionFactory.LoadMissions($scope.user.token);
+    testdemande= MissionFactory.LoadMissions($scope.user.token);
 
     $scope.waitDemandes = testdemande;
 
