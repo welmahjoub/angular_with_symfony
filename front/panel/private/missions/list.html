@@ -69,10 +69,10 @@
 
                                                 <tbody>
                                                 <tr ng-repeat="dem in waitDemandes">
-                                                    <td>Nom de la mission</td>
-                                                    <td>Description mission</td>
-                                                    <td>18/01/1998</td>
-                                                    <td>16/04/1998</td>
+                                                    <td>{{dem.nom}}</td>
+                                                    <td>{{dem.description}}</td>
+                                                    <td>{{dem.date_creation}}</td>
+                                                    <td>{{dem.date_confirmation}}</td>
                                                     <td>
                                                         <div class="btn-group">
                                                             <button type="button" title=" effectuer un operation" class="btn btn-brown btn-sm dropdown-toggle waves-effect" data-toggle="dropdown" aria-expanded="false">

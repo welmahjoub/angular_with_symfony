@@ -10,8 +10,16 @@ app.controller("MissionCtrl", function ($scope,MissionFactory,$location,$interva
 
     var testdemande =[];
 
+<<<<<<< HEAD
 
     MissionFactory.LoadMissions($scope.user.token);
+=======
+    for(var i=0  ; i<=16 ; i++ ){
+        var obj = { indice:i};
+        testdemande.push(obj);
+    }
+    testdemande= MissionFactory.LoadMissions($scope.user.token);
+>>>>>>> 4f713b2a394328a1b5815164634d0d0d9a6fcd20
 
     $scope.waitDemandes = testdemande;
 
