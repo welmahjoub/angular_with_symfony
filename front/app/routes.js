@@ -1,17 +1,17 @@
 var app = angular.module('App', ['ngRoute']);
 
-app.config(function($routeProvider, $httpProvider) {
+app.config(function($routeProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'accueil.html',
             controller: 'HomeCtrl'
         })
-        .when('/commandes/wait-demande', {
-            templateUrl: 'demandes/list.html',
-            controller: 'WaitDemandeCtrl'
+        .when('/missions', {
+            templateUrl: 'missions/list.html',
+            controller: 'MissionCtrl'
         })
         .when('/mission/create', {
-            templateUrl: 'product/categories/list.html',
+            templateUrl: 'missions/add.html',
             controller: 'ProductCtrl'
         })
         .otherwise({ redirectTo: '/'});
