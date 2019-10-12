@@ -1,6 +1,6 @@
 var app = angular.module('App', ['ngRoute']);
 
-app.config(function($routeProvider) {
+app.config(function($routeProvider, $httpProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'accueil.html',
@@ -12,7 +12,7 @@ app.config(function($routeProvider) {
         })
         .when('/mission/create', {
             templateUrl: 'missions/add.html',
-            controller: 'ProductCtrl'
+            controller: 'MissionCtrl'
         })
         .otherwise({ redirectTo: '/'});
 

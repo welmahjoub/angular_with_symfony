@@ -1,4 +1,4 @@
-app.factory("MisionsFactory", function ($q, $http) {
+app.factory("MissionFactory", function ($q, $http) {
 
     var factory = {
         // list of missions
