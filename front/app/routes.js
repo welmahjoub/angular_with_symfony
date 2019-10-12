@@ -6,9 +6,9 @@ app.config(function($routeProvider) {
             templateUrl: 'accueil.html',
             controller: 'HomeCtrl'
         })
-        .when('/wait-demande', {
-            templateUrl: 'demandes/list.html',
-            controller: 'WaitDemandeCtrl'
+        .when('/missions', {
+            templateUrl: 'missions/list.html',
+            controller: 'MissionCtrl'
         })
         .otherwise({ redirectTo: '/'});
 

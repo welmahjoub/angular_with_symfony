@@ -1,4 +1,4 @@
-app.controller("WaitDemandeCtrl", function ($scope,$location,$interval,$timeout) {
+app.controller("MissionCtrl", function ($scope,$location,$interval,$timeout) {
     try {
         $scope.session=JSON.parse(window.localStorage.getItem("user_session"));
     }catch (error){ }
