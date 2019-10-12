@@ -1,0 +1,20 @@
+app.factory("MisionsFactory", function ($q, $http) {
+
+    var factory = {
+        // list of missions
+        LoadMissions: function (token) {
+            var deferred = $q.defer();
+            $http.post(BASE_URL + "/api/missions", token).then(function (data, status) {
+                deferred.resolve(data);
+            }).catch(function (data) {
+                deferred.reject("Impossible de recuperer les missions");
+            });
+            return deferred.promise;
+        }
+    }
+        
+       
+
+
+    return factory;
+});

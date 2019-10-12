@@ -1,4 +1,4 @@
-app.controller("MissionCtrl", function ($scope,$location,$interval,$timeout) {
+app.controller("MissionCtrl", function ($scope,MissionFactory,$location,$interval,$timeout,$q, $http) {
     try {
         $scope.session=JSON.parse(window.localStorage.getItem("user_session"));
     }catch (error){ }
@@ -14,6 +14,7 @@ app.controller("MissionCtrl", function ($scope,$location,$interval,$timeout) {
         var obj = { indice:i};
         testdemande.push(obj);
     }
+    MissionFactory.LoadMissions($scope.user.token);
 
     $scope.waitDemandes = testdemande;
 
